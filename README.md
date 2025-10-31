@@ -4,6 +4,8 @@ This system aims at creating and finding the nearest stations for emergencies or
 
 The project uses leaflet.draw to present an interactive map using which a user can add incidents or stations to the map including zone marking
 
+`Currently the project is in progress. The aim of this project is to show how location data is dealt using Postgres database`
+
 ## Install dependencies
 ```
 npm install
