@@ -1,0 +1,39 @@
+{
+  "name": "emergency",
+  "version": "1.0.0",
+  "description": "emergency service mapping system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.4",
+    "@types/node": "^24.9.1",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.10",
+    "npm": "^11.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^8.2.3",
+    "@types/ejs": "^3.1.5",
+    "@types/express-session": "^1.18.2",
+    "@types/pg": "^8.15.5",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "leaflet": "^1.9.4",
+    "leaflet-draw": "^1.0.4",
+    "pg": "^8.16.3"
+  }
+}
